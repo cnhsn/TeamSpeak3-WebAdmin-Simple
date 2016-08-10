@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Zekton'; 
+    src: url('zekton.ttf');
+}
+
+body{
+    width: 900px;
+    margin: 50px auto;
+    background-image: url("background.jpg");
+}
+
+.jumbotron{
+    border: 1px solid #d1d5de;
+	border-radius: 25px;
+}
+
+span{
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+em.green { color: green; font-weight: bold; }
+em.red { color: red; font-weight: bold; }
+
+#divid ul {
+	border-radius: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#divid li {
+    float: left;
+	color: white;
+}
+
+#divid li a {
+    display: block;
+    padding: 8px;
+	color: white;
+}
+
+#clink a:link, a:visited {
+	font-family: 'Zekton';
+    background-color: black;
+    padding: 11px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#clink a:hover, a:active {
+    background-color: #195F5D;
+}
+
+#chosen a { background-color: red; }
+
+#used a { background-color:	#00667D}
+
+#online b { color: green; }
+#offline b { color: red; }
+#nodecorations a { text-decoration: none;}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+td a{display:block;}
+
+td.last
+{
+   border-bottom: 1px solid #000;
+}

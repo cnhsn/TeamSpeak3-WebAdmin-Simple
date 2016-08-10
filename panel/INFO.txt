@@ -1,0 +1,1 @@
+All files in this folder have to saved with ANSI charset.
